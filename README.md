@@ -1,6 +1,6 @@
-# Weather-SwiftUI-MVVM
+# WeatherApp-SwiftUI-MVVM
 
-This application fetches weather forecast from openweathermap API and displays data. I includes feature like showing 5 days and 3 hours weather forecast data of the current location. you can search current weather of minimum 3 and maximum 7 cities at a time. 
+This application fetches weather forecast from openweathermap API and displays data. I have included feature like showing 5 days and 3 hours weather forecast data of the current location. 
 
 ## Demonstrations
 
@@ -18,7 +18,6 @@ Covers the following:
 * SwiftUI
 * MVVM 
 * Combine Framework
-* Clubbing multiple network requests using Combine `mergeAll` feature.
 * XCTest Framework 
 
 ## Discussions
@@ -30,6 +29,9 @@ I have used `SwiftUI` for user interface creation, `Combine framework` allows me
 |             Current Weather         |         Weather Forecast          | 
 |---------------------------------|------------------------------|
 |![Demo](https://github.com/mwaqasbhati/Weather-SwiftUI-MVVM/blob/master/screenshots/Weather.png)|![Demo](https://github.com/mwaqasbhati/Weather-SwiftUI-MVVM/blob/master/screenshots/Forecast.png)|
+
+<img src="https://github.com/user-attachments/assets/7d976dd8-cc12-416c-af47-e82d0ad88eea" width="300" alt="Screenshot 1">
+<img src="https://github.com/mwaqasbhati/Weather-SwiftUI-MVVM/blob/master/screenshots/Forecast.png" width="300" alt="Screenshot 2">
 
 ## Requirements
 
