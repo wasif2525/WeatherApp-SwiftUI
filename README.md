@@ -26,10 +26,6 @@ I have used `SwiftUI` for user interface creation, `Combine framework` allows me
 
 ## Screenshots
 
-|             Current Weather         |         Weather Forecast          | 
-|---------------------------------|------------------------------|
-|![Demo](https://github.com/mwaqasbhati/Weather-SwiftUI-MVVM/blob/master/screenshots/Weather.png)|![Demo](https://github.com/mwaqasbhati/Weather-SwiftUI-MVVM/blob/master/screenshots/Forecast.png)|
-
 <img src="https://github.com/user-attachments/assets/7d976dd8-cc12-416c-af47-e82d0ad88eea" width="300" alt="Screenshot 1">
 <img src="https://github.com/mwaqasbhati/Weather-SwiftUI-MVVM/blob/master/screenshots/Forecast.png" width="300" alt="Screenshot 2">
 
@@ -39,41 +35,13 @@ I have used `SwiftUI` for user interface creation, `Combine framework` allows me
 - Swift 5.0
 - Minimum iOS version 13.2
 
-
-## Architecture at a Glance
-
-![Architecture at a Glance](https://github.com/mwaqasbhati/Weather-SwiftUI-MVVM/blob/master/Architecture/MVVM.png)
-
 ## Installation
 
 Checkout this repository, go to project directory, open it and run using Xcode.
 
-## Build
+## Meta
 
-To build using xcodebuild without code signing
-```
-xcodebuild clean build -scheme "WeatherAPI-SwiftUI-MVVM" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
-```
+Bhuiyan Shadman Wasif
 
-## Tests
-
-To run tests using xcodebuild.
-```
-xcodebuild -scheme "WeatherAPI-SwiftUI-MVVM" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.3' test
-
-```
-## Coverage
-
-> * Note: Test Coverage is less because Apple has not given any thing yet to test Swift View Classes
-
-![Test Cases and Coverage](https://github.com/mwaqasbhati/Weather-SwiftUI-MVVM/blob/master/screenshots/Coverage.png)
-
-
-## Author
-
-mwaqasbhati, m.waqas.bhati@hotmail.com
-
-## License
-
-Weather-SwiftUI-MVVM is available under the MIT license. See the LICENSE file for more info.
+No licence, you are free to utlize!
 
